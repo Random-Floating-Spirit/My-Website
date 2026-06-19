@@ -6,12 +6,11 @@
 }
 
 .navbar {
-    background-color: #00ff2a;
+    background: linear-gradient(to bottom, #5ac3ff, #ffffff);
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -22,15 +21,14 @@
     justify-content: space-between;
     height: 80px;
     z-index: 1;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
     padding: 0 50px;
 }
 
 #navbar__logo {
-    background-color: black;
+    background-color: #000000;
     background-image: linear-gradient(to top, #000000 0%, #000000 100%);
     background-size: 100%;
     background-clip: text;
@@ -47,7 +45,7 @@
     font-family: "Snell Roundhand", cursive;
 }
 
-.fa-gem{
+.fa-gem {
     margin-left: 0.5rem;
 }
 
@@ -55,7 +53,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-    text-align:center;
+    text-align: center;
 }
 
 .navbar__item {
@@ -63,13 +61,13 @@
 }
 
 .navbar__links {
-color: rgb(0, 0, 0);
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-height: 100%;
-padding: 0.5rem 1rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
 }
 
 .navbar__links:hover {
@@ -77,20 +75,17 @@ padding: 0.5rem 1rem;
     transition: all 0.3s ease;
 }
 
-.navbar {
-    background: linear-gradient(to bottom, #5ac3ff, #ffffff);
-}
-
 h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 10px;
+    font-size: 3 rem;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
