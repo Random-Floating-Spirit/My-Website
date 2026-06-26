@@ -11,8 +11,6 @@ Pages -
 Made with HTML and CSS
 
 Project Structure
-Project Structure
-My-Website/
 1. index.html
 2. aboutme.html
 3. thingsimade.html
